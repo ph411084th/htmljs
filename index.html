@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello, World!</title>
+  </head>
+  <body>
+    <h1>Welcome to my page</h1>
+    <p id="poruka">Hello, World!</p>
+    <button onclick="changeText()">DUGME</button>
+
+    <script>
+      function changeText() {
+        var messageElement = document.getElementById("poruka");
+        messageElement.textContent = "Nova poruka";
+      }
+    </script>
+  </body>
+</html>
